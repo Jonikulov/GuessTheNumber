@@ -1,7 +1,7 @@
 # This is a 'Guess the Number' game
 import random
 
-# part 1 - computer guess - you have to find
+# part 1 - computer guesses - you have to find
 def pcGuess(n):
     pcNum = random.randint(1, n)
     print(f"\nLet's play 'Guess the Number' game. I'm thinking an integer between 1 and {n}.")
@@ -59,62 +59,4 @@ def playGuessTheNumber(y=10):
         play = int(input("\nPlay again? yes(1)/no(0): "))
 
 
-playGuessTheNumber(10)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+playGuessTheNumber(10) # you can increase the value for playing longer  
